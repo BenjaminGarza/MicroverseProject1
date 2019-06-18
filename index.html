@@ -1,73 +1,86 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <header class="left-align" id="header" >
-      <img  width="200px"id="header-img" src="https://i.pinimg.com/originals/7d/50/e0/7d50e0ca18288babcb61d9e7cf318d26.jpg"
-      alt="Gibson Guitars">
-    </header>
-    <header id="header">
-      <nav class="right-align" id="nav-bar">
-        <a href="#features" class="nav-link">Features</a>
-        <a href="#pricing" class="nav-link">Pricing</a>
-        <a href="#location" class="nav-link">Where to buy</a>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header center-align" id="header">
+    <img width="200px" id="header-img"
+      src="https://i.pinimg.com/originals/7d/50/e0/7d50e0ca18288babcb61d9e7cf318d26.jpg" alt="Gibson Guitars">
+    <div class="sidenav">
+      <nav class="center-align" id="nav-bar">
+      <ul>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#location" class="nav-link">Where to buy</a></li>
+      </ul>
       </nav>
-    </header>
-    
-
-    <div>
-      <form action="https://www.freecodecamp.com/email-submit" id="form" class="center-align" >
-        Email: <input name="email" placeholder="Email Address" id="email" type="email" required>
-        <input  type="submit" id="submit">
-      </form>
     </div>
-    
-   <div class="center-align" id="features">
-     <h1>
-       Quality Materials
-     </h1>
-     <p>
-       Each guitar is made from the finest materials on the market
-     </p>
-     <h1>
-       Premium Worksmanship
-     </h1>
-     <p>
-       Experienced craftsmen working to ensure the best final product
-     </p>
-     <h1>
-       High quality mosfit caps
-     </h1>
-     <p>
-       Ensure a long life with the best sound on the market
-     </p>
-   </div>
-   <div class="center-align container" id="pricing">
-     <h1>
-       Les Paul Special Tribute DC $999.00
-     </h1>
-     <img width ="400px" height = "200px" src="https://static.gibson.com/product-images/USA/USAHE5811/Worn%20Ebony/front-banner-1600_900.png" alt="Les Paul Special Tribute DC">
-     <h1>
-      Les Paul Classic $1,999.00 
-     </h1>
-     <img width ="400px" height = "200px" src="https://static.gibson.com/product-images/USA/USAI9Q269/Translucent%20Cherry/front-banner-1600_900.png" alt="Les Paul Classic">
-   </div>
-   <div class="center-align " >
-    <iframe class="center-align" id="video" width="560" height="315" src="https://www.youtube.com/embed/3s8PG64XpKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-   </div>
-   <div class="center-align" id="location">
-     <h1>Visit your <a href="https://hangouts.google.com/_/elUi/chat-redirect?dest=https%3A%2F%2Fwww.gibson.com%2FFind-A-Store">local store</a></h1>
-   </div>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </header>
 
-    <!--
+  <div class="center-align form main">
+    <form action="https://www.freecodecamp.com/email-submit" id="form" class="content">
+      Email: <input name="email" placeholder="Email Address" id="email" type="email" required>
+      <input type="submit" id="submit">
+    </form>
+  </div>
+
+  <div class="center-align main" id="features">
+    <h1>
+      Quality Materials
+    </h1>
+    <p>
+      Each guitar is made from the finest materials on the market
+    </p>
+    <h1>
+      Premium Worksmanship
+    </h1>
+    <p>
+      Experienced craftsmen working to ensure the best final product
+    </p>
+    <h1>
+      High quality mosfit caps
+    </h1>
+    <p>
+      Ensure a long life with the best sound on the market
+    </p>
+  </div>
+  <div class="center-align container main" id="pricing">
+    <h1>
+      Les Paul Special Tribute DC $999.00
+    </h1>
+    <img width="400px" height="200px"
+      src="https://static.gibson.com/product-images/USA/USAHE5811/Worn%20Ebony/front-banner-1600_900.png"
+      alt="Les Paul Special Tribute DC">
+    <h1>
+      Les Paul Classic $1,999.00
+    </h1>
+    <img width="400px" height="200px"
+      src="https://static.gibson.com/product-images/USA/USAI9Q269/Translucent%20Cherry/front-banner-1600_900.png"
+      alt="Les Paul Classic">
+    <br>
+    <iframe class="center-align" id="video" width="560" height="315" src="https://www.youtube.com/embed/3s8PG64XpKY"
+      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+  
+  <footer>
+    <div class="footer main" id="location">
+      <h1>Visit your <a
+          href="https://hangouts.google.com/_/elUi/chat-redirect?dest=https%3A%2F%2Fwww.gibson.com%2FFind-A-Store">local
+          store</a></h1>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
     Hello Camper!
     For now, the test suite only works in Chrome!
     Please read the README below in the JS Editor before beginning.
@@ -75,6 +88,7 @@
     Good luck and Happy Coding!
     - The freeCodeCamp Team
     -->
-    <script  src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
